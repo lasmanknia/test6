@@ -1,0 +1,94 @@
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Hi{
+    height: 100vh;
+}
+.logo{
+
+
+
+  float: left;
+  padding: 20px ;
+  color: white;
+  font-size:15px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.logo span {
+  color: #008389;
+}
+
+.img-box{
+    width: 300px;
+    position: relative;
+    right:10px;
+  
+}
+.pic-one{
+    width:100%;
+    position: absolute;
+    bottom:-300px;
+    
+}
+.pic-two{
+    width: 20%;
+    position: absolute;
+    bottom:-187px;
+    left:20px;
+}
+.pic-three{
+    width: 40%;
+    position: absolute;
+    right:43px;
+   bottom:-200px;
+}
+.pic-four{
+    width: 45%;
+    position: absolute;
+    left:40px;
+    bottom:-290px;
+}
+
+
+.Hello{
+    background: #b0c6f5;
+}
+.Hi .row{
+    margin-bottom: 15%;
+    margin-left: 3%
+ 
+}
+.Hi h1{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.Hi p{
+    margin: 30px 0 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.Hi button{
+    padding: 8px 20px;
+    background: #0c5ce3;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+ 
+ }
+ .Hi button a{
+   color:white;
+ }
+ .Hi button a:hover{
+   background: #0c5ce3;
+ }
+  

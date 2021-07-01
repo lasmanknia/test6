@@ -1,0 +1,70 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px){
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Hi{
+    height: 100vh;
+}
+.img-box{
+    width: 550px;
+    position: relative;
+    left:100px;
+}
+.pic-one{
+    width:100%;
+    position: absolute;
+    top: 35px;
+    
+}
+.pic-two{
+    width: 20%;
+    position: absolute;
+    top: 46px;
+   right: 420px;
+}
+.pic-three{
+    width: 40%;
+    position: absolute;
+    left: 280px;
+  top:40px;
+}
+.pic-four{
+    width: 45%;
+    position: absolute;
+    left:60px;
+    top: 180px;
+}
+
+
+.Hello{
+    background: #b0c6f5;
+}
+.Hi .row{
+    margin-bottom: 20%;
+    margin-left: 10%
+ 
+}
+.Hi h1{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.Hi p{
+    margin: 30px 0 50px;
+    font-size: 13px;
+    color: #fff;
+}
+.Hi button{
+    padding: 8px 20px;
+    background: #0c5ce3;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+
+}
+  }
